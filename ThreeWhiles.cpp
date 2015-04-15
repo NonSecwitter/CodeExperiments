@@ -1,3 +1,10 @@
+//The assembly for each of these, on Visual Studio 2013 Pro, is remarkably similair
+//The second while loop has the smallest instruction set, the first version is next, and the final version
+//has the largest instruction set.
+
+//The test will fill an array with random numbers, search the array for a non-existent item, 
+//calculate the time taken to search
+//and calculate/display an avearge time for LONG_MAX iterations of the entire process.
 #include <stdint.h>
 #include <limits.h>
 #include <iostream>
