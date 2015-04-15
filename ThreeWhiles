@@ -11,7 +11,10 @@ int main()
 	const int ARR_SIZE = 30000;
 	int intArr[ARR_SIZE];
 
-	int searchItem = -5;
+	//using -5 for my search item guarantees that linear search will
+	//not find a result, and therefore examine every element, because
+	//the array is populated using rand(), which returns 0 to RAND_MAX
+	int searchItem = -5; 
 
 	int count = 0;
 	bool found = false;
