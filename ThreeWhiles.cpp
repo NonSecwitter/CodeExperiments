@@ -29,7 +29,7 @@ int main()
 	uint64_t t0, t1;
 	unsigned long long avg1 = 0, avg2 = 0, avg3 =0;
 	
-	const long ITERATIONS = LONG_MAX;
+	const long ITERATIONS = std::numeric_limits<int>::max();
 	
 	for (int i = 0; i < ITERATIONS; i++)
 	{
